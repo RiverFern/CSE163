@@ -1,0 +1,27 @@
+#borders {
+    top: 150px;
+    left: 50px;
+    position: absolute;
+}
+
+#color {
+    top: 150px;
+    left: 650px;
+    position: absolute;
+}
+
+#tooltip {    
+    position: absolute;
+    width: 135px;
+    height: 30x;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+#tooltip.hidden {
+    display: none;
+}
